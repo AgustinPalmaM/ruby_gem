@@ -1,6 +1,6 @@
 # Palindrome detector
 
-`agustin_palindrome` is a sample Ruby gem created in [*Learn Enough Ruby to Be Dangerous*](https://github.com/AgustinPalmaM/ruby_gem) by Agustin Palma - software development student as part of the ruby course from Michael Hartl - Learn enough ruby to be dangerous.
+`agustin_palindrome` is a sample Ruby gem created in [*Ruby Palindrome Detector*](https://github.com/AgustinPalmaM/ruby_gem) by Agustin Palma - software development student as part of the ruby course from Michael Hartl - Learn enough ruby to be dangerous.
 
 ## Installation
 
