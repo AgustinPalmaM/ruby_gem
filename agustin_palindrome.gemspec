@@ -3,7 +3,7 @@
 require_relative "lib/agustin_palindrome/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "agustin_palindrome"
+  spec.name = "palindrome_catcher"
   spec.version = AgustinPalindrome::VERSION
   spec.authors = ["AgustinPalmaM"]
   spec.email = ["palma.agustin7@gmail.com"]

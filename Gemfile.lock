@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    agustin_palindrome (0.1.0)
+    palindrome_catcher (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -44,10 +44,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  agustin_palindrome!
   bundler (~> 2.3.7)
   minitest (~> 5.0)
   minitest-reporters (= 1.2.0)
+  palindrome_catcher!
   rake (~> 13.0)
   rubocop (~> 1.21)
 
