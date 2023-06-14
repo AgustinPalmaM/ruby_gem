@@ -24,7 +24,7 @@ $ gem install agustin_palindrome
 
 ## Usage
 
-`agustin_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
+`agustin_palindrome` adds a `palindrome?` method to the `String` and to the `Integer` class, and can be used as follows:
 
 ```
 $ irb
@@ -37,6 +37,10 @@ $ irb
 => true
 >> phrase = "Madam, I'm Adam."
 >> phrase.palindrome?
+=> true
+>> 12345.palindrome?
+=> false
+>> 1234321.palindrome?
 => true
 ```
 
