@@ -2,18 +2,22 @@
 
 require_relative "agustin_palindrome/version"
 
-class String
+module AgustinPalindrome
   def palindrome?
     processed_content == processed_content.reverse
-  end
-
-  def letters
-    scan(/[a-z]/i).join
   end
 
   private
 
   def processed_content
-    letters.downcase
+    to_s.scan(/[a-z\d]/i).join.downcase
   end
+end
+
+class String
+  include AgustinPalindrome
+end
+
+class Integer
+  include AgustinPalindrome
 end

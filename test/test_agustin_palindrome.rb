@@ -24,7 +24,11 @@ class TestAgustinPalindrome < Minitest::Test
     assert "Madam, I'm Adam.".palindrome?
   end
 
-  def test_letters_method
-    assert_equal "MadamImAdam", "Madam, I'm Adam".letters
+  def test_integer_palindrome
+    assert 1234321.palindrome?
+  end
+
+  def test_integer_non_palindrome
+    refute 1234567.palindrome?
   end
 end
