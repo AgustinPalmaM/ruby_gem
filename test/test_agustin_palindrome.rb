@@ -31,4 +31,12 @@ class TestAgustinPalindrome < Minitest::Test
   def test_integer_non_palindrome
     refute 1234567.palindrome?
   end
+
+  def test_empty_string_is_not_a_palindrome
+    refute "".palindrome?
+  end
+
+  def test_a_lot_of_spaces_are_not_a_palindrome
+    refute "    ".palindrome?
+  end
 end

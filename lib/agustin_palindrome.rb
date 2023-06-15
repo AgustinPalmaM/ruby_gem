@@ -4,6 +4,8 @@ require_relative "agustin_palindrome/version"
 
 module AgustinPalindrome
   def palindrome?
+    return false if processed_content.empty?
+    
     processed_content == processed_content.reverse
   end
 
